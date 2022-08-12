@@ -1,8 +1,7 @@
-const { network, ethers } = require("hardhat")
+const { ethers } = require("hardhat")
 
 module.exports = async ({ getNamedAccounts, deployments }) => {
     const { deployer } = await getNamedAccounts()
-    const chainId = network.config.chainId
 
     const basicNft = await ethers.getContract("BasicNft", deployer)
     const mintTX = await basicNft.mintNft()
