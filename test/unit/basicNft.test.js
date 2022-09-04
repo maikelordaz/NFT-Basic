@@ -15,8 +15,7 @@ const { developmentChains } = require("../../helper-hardhat-config")
           })
 
           it("Mints a new token", async function () {
-              const tokenURIexpected =
-                  "ipfs://bafybeig37ioir76s7mg5oobetncojcm3c3hxasyd4rvid4jqhy4gkaheg4/?filename=0-PUG.json"
+              const tokenURIexpected = "ipfs://QmPhxoJi14YaVmMaHHtUyBGX5zFEYiKUMcAXJiGAS9PT8K"
               const tokenCounter = await basicNft.getTokenCounter()
               const mintTX = await basicNft.mintNft()
               await mintTX.wait(1)

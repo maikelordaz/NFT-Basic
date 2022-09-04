@@ -25,6 +25,14 @@ For the Unit test run any of this:
     > yarn hardhat test
     > yarn test
 
+## :bookmark_tabs: DEPLOYS
+
+Deployed and verifyed on:
++ Rinkeby at address
+    > 0x320a503c3B9eecA6238A3e56cb1767db9f49e8b1
++ Goerli at address
+    > 0x934aa086ad83600d7EF3Fa1704B7631D8ff822A9
+
 ## :bookmark_tabs: CONTRIBUTE
 
 If you want to contribute just fork the repo and describe the changes you made.
